@@ -1,6 +1,9 @@
 package com.jerry.spider.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+
+import com.jerry.spider.service.IPermissionService;
 
 /**
  * 权限控制器类
@@ -12,6 +15,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class PermissionController {
 
-	
+	@Autowired
+	private IPermissionService permissionService;
+
 	
 }
