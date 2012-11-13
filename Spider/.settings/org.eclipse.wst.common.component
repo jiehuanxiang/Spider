@@ -2,6 +2,8 @@
     <wb-module deploy-name="Spider">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resource"/>
         <property name="context-root" value="Spider"/>
         <property name="java-output-path" value="/Spider/build/classes"/>
     </wb-module>
